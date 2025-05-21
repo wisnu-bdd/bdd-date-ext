@@ -16,5 +16,8 @@
     "utility"
   ],
   "author": "bdd-wisnu",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
 }
