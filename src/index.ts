@@ -1,4 +1,5 @@
 type Locales = string | string[];
+type TimeUnit = 'ms' | 'second' | 'minute' | 'hour' | 'day' | 'month' | 'year';
 
 export class DateX extends Date {
   // constructor() {
@@ -26,7 +27,7 @@ export class DateX extends Date {
     return this.toLocaleTimeString(locales || "en", { hour: "2-digit", minute: "2-digit" });
   }
 
-  public shift(value: number, unit: 'ms' | 'second' | 'minute' | 'hour' | 'day' | 'month' | 'year') {
+  public shift(value: number, unit: TimeUnit) {
     switch (unit) {
       case "ms": this.setMilliseconds(this.getMilliseconds() + value); break;
       case "second": this.setSeconds(this.getSeconds() + value); break;

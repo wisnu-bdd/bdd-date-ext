@@ -1,6 +1,6 @@
 {
   "name": "bdd-date-ext",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A TypeScript utility that extends the native Date class with helpful methods for formatting, comparison, and date math.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
