@@ -1,5 +1,5 @@
 {
-  "name": "date-x",
+  "name": "bdd-date-ext",
   "version": "1.0.0",
   "description": "A TypeScript utility that extends the native Date class with helpful methods for formatting, comparison, and date math.",
   "main": "dist/index.js",
